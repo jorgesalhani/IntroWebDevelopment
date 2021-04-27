@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form class=""
+          action="submit.php"
+          method="POST">
+
+    <fieldset>
+
+      <legend>Personal information</legend>
+      Name: <br>
+      <input type="text"
+             name="name"
+             required
+             autofocus> <br> <br>
+      Password: <br>
+      <input type="password"
+             name="password"
+             required> <br> <br>
+
+      E-mail: <br>
+      <input type="email"
+             name="email"
+             autocomplete='on'
+             placeholder="goddess@example.xom"
+             required> <br> <br>
+
+      Image: <br>
+      <input type="file"
+             name="image"> <br> <br>
+
+      <!-- Invisible input -->
+      <input type="hidden"
+             name="id">
+
+      URL: <br>
+      <input type="url"
+             name="site"> <br> <br>
+
+      Search: <br>
+      <input type="search"
+             name="search"> <br> <br>
+
+      Telephone: <br>
+      <input type="tel"
+             name="telephone"> <br> <br>
+
+      Date: <br>
+      <input type="date"
+             name="date"
+             min='1990-01-01'
+             max='2022-12-31'> <br> <br>
+
+      Time: <br>
+      <input type="time"
+             name="time"> <br> <br>
+
+      Month/Year: <br>
+      <input type="month"
+             name="month-year"> <br> <br>
+
+      Week: <br>
+      <input type="week"
+             name="week"
+             autocomplete="on"> <br> <br>
+
+      Datetime: <br>
+      <input type="datetime-local"
+             name="datetime"
+             autocomplete="on"> <br> <br>
+
+      Message: <br>
+      <textarea name="Message"
+                rows="8"
+                cols="10"
+                spellcheck="true"></textarea> <br> <br>
+
+      <button type="button"
+              name="button">Please, click here!</button> <br> <br>
+
+      Reading desired: <br>
+      <input name="reading"
+             list="reading-desired">
+      <datalist id='reading-desired'>
+        <option value="romantic">
+        <option value="professional">
+        <option value="foretoken">
+      </datalist> <br> <br>
+
+      Prefered Tarot Card: <br>
+      <select name="tarot-card">
+        <optgroup label="major-arcana">
+          <option value="empress">The Empress</option>
+          <option value="hanged">The Hanged Man</option>
+          <option value="justice">The Justice</option>
+          <option value="death">The Death</option>
+          <option value="chariot">The Chariot</option>
+        </optgroup>
+
+        <optgroup label="minor-arcana">
+          <option value="k-spades">King of Spades</option>
+          <option value="9-cups">Nine of Cups</option>
+          <option value="1-batons">Ace of Batons</option>
+          <option value="7-coins">Seven of Coins</option>
+          <option value="q-cups">Queen of Cups</option>
+        </optgroup>
+      </select> <br> <br>
+
+      Prefered goddess: <br>
+      <input type="radio"
+             name="god-figure"
+             value="Amaterasu-omikami">Amaterasu-Omikami <br>
+
+      <input type="radio"
+             name="god-figure"
+             value="Ishtar">Ishtar <br>
+
+      <input type="radio"
+             name="god-figure"
+             value="Mercury">Mercury <br> <br>
+
+      Languages: <br>
+      <input type="checkbox"
+             name="language"
+             value="Portuguese">Portuguese <br>
+
+      <input type="checkbox"
+             name="language"
+             value="English">English <br>
+
+      <input type="checkbox"
+             name="language"
+             value="Japanese">Japanese <br>
+
+      <input type="checkbox"
+             name="language"
+             value="Arab">Arab <br> <br>
+
+      Favorite number: <br>
+      <input type="number"
+             name="favorite-number"
+             min="-20"
+             max='20'
+             step="2"> <br> <br>
+
+      <input type="range"
+             name="favorite-number"
+             min='-20'
+             max='20'
+             step='2'> <br> <br>
+
+      Favorite color: <br>
+      <input type="color"
+             name="color"> <br> <br>
+
+      Cannot fill: <br>
+      <input type="text"
+             name="disabled-field"
+             disabled> <br> <br>
+
+      <input type="submit"
+             name="send-button"
+             value="Send"> <br>
+
+    </<fieldset>
+    </form>
+  </body>
+</html>
