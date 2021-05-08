@@ -4,11 +4,12 @@
 
 2. What is the difference between margin and padding?
 
-Padding is the spacing closely around the content. It is delimited by the container border.
-Margin marks the spacing outside of the borderquarta feira é to
+- Padding is the spacing closely around the content. It is delimited by the container border.
+- Margin marks the spacing outside of the borderquarta feira é to
 
 3. What is the correct way to specify values for the 4 different sides for padding?
-padding: side_top side_left side_bottom side_right;
+
+- {padding: side_top side_left side_bottom side_right;}
 
 5. Assuming that multiple elements in an HTML page belong to the classes btn and green. What is the correct selector to apply a style only to elements from both classes?
 6. Modify the index.html file 
