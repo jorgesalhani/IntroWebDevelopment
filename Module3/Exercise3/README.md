@@ -2,6 +2,8 @@
 
 1. Upload lessons 1 - 30 from [Curso de CSS3](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG)
 
+- Content can be found [here](https://github.com/jorgesalhani/IntroWebDevelopment/tree/main/Module3/CursoCSS3/module01)
+
 2. What is the difference between margin and padding?
 
 - Padding is the spacing closely around the content. It is delimited by the container border.
