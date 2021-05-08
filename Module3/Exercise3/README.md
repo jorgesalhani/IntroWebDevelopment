@@ -5,7 +5,7 @@
 2. What is the difference between margin and padding?
 
 - Padding is the spacing closely around the content. It is delimited by the container border.
-- Margin marks the spacing outside of the borderquarta feira é to
+- Margin marks the spacing outside of the border
 
 3. What is the correct way to specify values for the 4 different sides for padding?
 
