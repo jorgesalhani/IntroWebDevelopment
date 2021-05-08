@@ -12,4 +12,7 @@
 - {padding: side_top side_left side_bottom side_right;}
 
 5. Assuming that multiple elements in an HTML page belong to the classes btn and green. What is the correct selector to apply a style only to elements from both classes?
-6. Modify the index.html file 
+
+- .btn, .green { /* styles here */;}
+
+7. Modify the index.html file 
