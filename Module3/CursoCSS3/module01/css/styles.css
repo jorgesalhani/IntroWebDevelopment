@@ -1,3 +1,126 @@
+
+
+/* Lesson 17: colors-gradient.html
+
+#colors {
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(45deg, black, white, rgba(230,245,84,0.5));
+} */
+
+/* Lesson 16: colors-gradient.html
+
+#colors {
+  width: 300px;
+  height: 250px;
+  color: blue;
+  background-color: rgba(230,245,84,0.2);
+} */
+
+/* Lesson 15: fonts.html
+
+* {
+  font-size: 100%;
+}
+
+p {
+  font-size: 2.5em;
+  font-family: 'Itim', cursive;
+} */
+
+
+/* Lesson 14: fonts.html
+
+* {
+  font-size: 100%;
+}
+
+@fontface {
+  font-family: roboto_condensed_light;
+  src: url(robotocondensed-light-webfont.woff);
+}
+
+p {
+  font-size: 2.5em;
+  font-family: roboto_condensed_light;
+} */
+
+/* Lesson 13: fonts.html
+
+* {
+  font-size: 100%;
+}
+
+p {
+  font-family: Arial, Verdana, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5em;
+} */
+
+/* Lesson 12: border-radius.html
+
+#block {
+  background-color: blue;
+  width: 300px;
+  height: 350px;
+  border-top-left-radius: 30px;
+} */
+
+/* Lesson 11: overflow-opacity.hmtl
+
+#content {
+  background-color: red;
+  width: 300px;
+  height: 70px;
+  overflow: auto;
+}
+
+#content p {
+  opacity: 0.5;
+} */
+
+/* Lesson 10: box-properties.html
+
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  background-color: red;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 10px 10px 4px blue;
+} */
+
+/* Lesson 08-09: texts.html
+
+p {
+  color: red;
+  text-indent: 20px;
+  line-height: 25px;
+  direction: ltr;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-shadow: 3px 3px 4px blue;
+}
+
+h1 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: right;
+  text-decoration: overline;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: line-through;
+} */
+
 /* Lesson 07: margin-padding.html
 
 #example {
