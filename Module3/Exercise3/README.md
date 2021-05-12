@@ -15,6 +15,6 @@
 
 5. Assuming that multiple elements in an HTML page belong to the classes btn and green. What is the correct selector to apply a style only to elements from both classes?
 
-- .btn, .green { /* styles here */;}
+- .btn.green { /* styles here */;}
 
 7. Modify the index.html file 
