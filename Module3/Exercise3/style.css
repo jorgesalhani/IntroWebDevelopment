@@ -1,0 +1,87 @@
+/* Call 'Montserrat' font family in order to use it
+   throughout the website */
+@font-face {
+  font-family: 'Montserrat';
+}
+
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  background-color: #bfc5d9;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 30px;
+  color: #bfc5d9;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #bfc5d9;
+}
+
+a:hover {
+  color: #969aa8;
+}
+
+p {
+  color: #6d6d78;
+}
+
+
+/* All website content*/
+.container {
+  background-color: #bfc5d9;
+  margin: auto;
+  width: 650px;
+  float: center;
+}
+
+.card {
+  border: 1px solid;
+  margin: 25px;
+  border-radius: 4px;
+}
+
+.container h1 {
+  color: #e36f6f;
+}
+
+.container h2, h3{
+  color: #bfc5d9;
+}
+
+/* Profile header: picture and biography */
+#img-profile {
+  border-radius: 50%;
+  width: 190px;
+  height: 180px;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  background-color: #e36f6f;
+  font-weight: 700;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+/* Favorite movies */
+
+#movies img {
+  width: 150px;
+  height: 200px;
+  padding: 30px;
+}
