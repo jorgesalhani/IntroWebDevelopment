@@ -1,0 +1,41 @@
+#container-block {
+    margin: auto;
+    background-color: rgb(226, 225, 225);
+    width: 600px;
+    height: 160px;
+    border: solid 1px black;
+}
+
+#header-content {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+#insert-text, 
+#fixed-text, 
+#div-button {
+    margin: 20px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
+
+
+#button {
+    margin: 20px;
+    background-color: rgb(235, 152, 94);
+    border: solid 1px black;
+    border-radius: 5px;
+} 
+
+#button:hover {
+    background-color: rgb(224, 118, 42);
+}
+
+#button:active {
+    background-color: rgb(235, 196, 168);
+}
